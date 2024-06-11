@@ -11,6 +11,11 @@
 		34260D662C187D5000A003FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D652C187D5000A003FD /* ContentView.swift */; };
 		34260D682C187D5100A003FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34260D672C187D5100A003FD /* Assets.xcassets */; };
 		34260D6B2C187D5100A003FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34260D6A2C187D5100A003FD /* Preview Assets.xcassets */; };
+		34260D732C187DEA00A003FD /* AppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D722C187DEA00A003FD /* AppleView.swift */; };
+		34260D752C187EDB00A003FD /* BananaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D742C187EDB00A003FD /* BananaView.swift */; };
+		34260D772C187EEB00A003FD /* CarrotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D762C187EEB00A003FD /* CarrotView.swift */; };
+		34260D792C187EF700A003FD /* LemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D782C187EF700A003FD /* LemonView.swift */; };
+		34260D7B2C187F0100A003FD /* OliveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D7A2C187F0100A003FD /* OliveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		34260D652C187D5000A003FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34260D672C187D5100A003FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34260D6A2C187D5100A003FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34260D722C187DEA00A003FD /* AppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleView.swift; sourceTree = "<group>"; };
+		34260D742C187EDB00A003FD /* BananaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaView.swift; sourceTree = "<group>"; };
+		34260D762C187EEB00A003FD /* CarrotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotView.swift; sourceTree = "<group>"; };
+		34260D782C187EF700A003FD /* LemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonView.swift; sourceTree = "<group>"; };
+		34260D7A2C187F0100A003FD /* OliveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,8 @@
 			children = (
 				34260D632C187D5000A003FD /* SwiftUICoordinatorPatternApp.swift */,
 				34260D652C187D5000A003FD /* ContentView.swift */,
+				34260D712C187DD400A003FD /* View */,
+				34260D7C2C187F1500A003FD /* Coordinator */,
 				34260D672C187D5100A003FD /* Assets.xcassets */,
 				34260D692C187D5100A003FD /* Preview Content */,
 			);
@@ -65,6 +77,25 @@
 				34260D6A2C187D5100A003FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34260D712C187DD400A003FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34260D722C187DEA00A003FD /* AppleView.swift */,
+				34260D742C187EDB00A003FD /* BananaView.swift */,
+				34260D762C187EEB00A003FD /* CarrotView.swift */,
+				34260D782C187EF700A003FD /* LemonView.swift */,
+				34260D7A2C187F0100A003FD /* OliveView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34260D7C2C187F1500A003FD /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				34260D662C187D5000A003FD /* ContentView.swift in Sources */,
+				34260D732C187DEA00A003FD /* AppleView.swift in Sources */,
 				34260D642C187D5000A003FD /* SwiftUICoordinatorPatternApp.swift in Sources */,
+				34260D772C187EEB00A003FD /* CarrotView.swift in Sources */,
+				34260D792C187EF700A003FD /* LemonView.swift in Sources */,
+				34260D752C187EDB00A003FD /* BananaView.swift in Sources */,
+				34260D7B2C187F0100A003FD /* OliveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
