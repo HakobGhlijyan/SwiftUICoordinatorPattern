@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CoordinatorViiew: View {
+struct CoordinatorView: View {
     @StateObject private var coordinator = Coordinator()
     
     var body: some View {
@@ -33,5 +33,5 @@ struct CoordinatorViiew: View {
 }
 
 #Preview {
-    CoordinatorViiew()
+    CoordinatorView()
 }

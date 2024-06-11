@@ -17,7 +17,7 @@
 		34260D792C187EF700A003FD /* LemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D782C187EF700A003FD /* LemonView.swift */; };
 		34260D7B2C187F0100A003FD /* OliveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D7A2C187F0100A003FD /* OliveView.swift */; };
 		34260D7E2C1880E900A003FD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D7D2C1880E900A003FD /* Coordinator.swift */; };
-		34260D802C1887EA00A003FD /* CoordinatorViiew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D7F2C1887EA00A003FD /* CoordinatorViiew.swift */; };
+		34260D802C1887EA00A003FD /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D7F2C1887EA00A003FD /* CoordinatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		34260D782C187EF700A003FD /* LemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonView.swift; sourceTree = "<group>"; };
 		34260D7A2C187F0100A003FD /* OliveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveView.swift; sourceTree = "<group>"; };
 		34260D7D2C1880E900A003FD /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		34260D7F2C1887EA00A003FD /* CoordinatorViiew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorViiew.swift; sourceTree = "<group>"; };
+		34260D7F2C1887EA00A003FD /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				34260D7D2C1880E900A003FD /* Coordinator.swift */,
-				34260D7F2C1887EA00A003FD /* CoordinatorViiew.swift */,
+				34260D7F2C1887EA00A003FD /* CoordinatorView.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 			files = (
 				34260D7E2C1880E900A003FD /* Coordinator.swift in Sources */,
 				34260D662C187D5000A003FD /* ContentView.swift in Sources */,
-				34260D802C1887EA00A003FD /* CoordinatorViiew.swift in Sources */,
+				34260D802C1887EA00A003FD /* CoordinatorView.swift in Sources */,
 				34260D732C187DEA00A003FD /* AppleView.swift in Sources */,
 				34260D642C187D5000A003FD /* SwiftUICoordinatorPatternApp.swift in Sources */,
 				34260D772C187EEB00A003FD /* CarrotView.swift in Sources */,

@@ -12,7 +12,7 @@ struct SwiftUICoordinatorPatternApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            AppleView()
+            CoordinatorView()
         }
     }
 }
