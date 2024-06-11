@@ -16,6 +16,7 @@
 		34260D772C187EEB00A003FD /* CarrotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D762C187EEB00A003FD /* CarrotView.swift */; };
 		34260D792C187EF700A003FD /* LemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D782C187EF700A003FD /* LemonView.swift */; };
 		34260D7B2C187F0100A003FD /* OliveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D7A2C187F0100A003FD /* OliveView.swift */; };
+		34260D7E2C1880E900A003FD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34260D7D2C1880E900A003FD /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		34260D762C187EEB00A003FD /* CarrotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotView.swift; sourceTree = "<group>"; };
 		34260D782C187EF700A003FD /* LemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonView.swift; sourceTree = "<group>"; };
 		34260D7A2C187F0100A003FD /* OliveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveView.swift; sourceTree = "<group>"; };
+		34260D7D2C1880E900A003FD /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		34260D7C2C187F1500A003FD /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				34260D7D2C1880E900A003FD /* Coordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34260D7E2C1880E900A003FD /* Coordinator.swift in Sources */,
 				34260D662C187D5000A003FD /* ContentView.swift in Sources */,
 				34260D732C187DEA00A003FD /* AppleView.swift in Sources */,
 				34260D642C187D5000A003FD /* SwiftUICoordinatorPatternApp.swift in Sources */,
